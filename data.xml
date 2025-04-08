@@ -1,0 +1,18 @@
+
+
+<!-- in xml you have must be root element use  -->
+<!--  es main id hum kuhd say define karaty hain  -->
+<!-- it has nothing to do id and calass -->
+
+<personData> 
+<user id = "1">
+<form>
+<firstname>shari</firstname>
+<lastname>khan</lastname>
+<email>shari@897</email>
+
+
+</user>
+</personData>
+
+
