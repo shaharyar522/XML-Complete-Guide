@@ -1,0 +1,26 @@
+
+<!-- different bewteeen xml and hmtl  -->
+
+
+<!-- xml  (Extensible Markup Language)
+
+1.XML is used to echange data or strucure data
+2.XML uses user defined tags. xml does not have predined tags
+3.XML tags are case sensitive 
+4.XML tags must be closed otherwise you will get an error
+5.XML is a strict language
+
+
+html(hypertext markup language)
+1.HTML is used to structure a webpage 
+2.HTML tags are predifined
+3.HTML tags are case insensitive 
+4.html tags should also be closed but browser won't mind if you you fort to close any tag.
+5.HTML is not strict language 
+
+
+-->
+
+
+
+<>
