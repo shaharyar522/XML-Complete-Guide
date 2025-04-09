@@ -1,14 +1,67 @@
-<!-- -->
+<!-- 
+  Namespaces group elements to avoid naming conflicts.
+  xmlns:a="..." defines a namespace prefix for elements.
+-->
+<allRecords>
+
+  <!-- First dataset: nadraData -->
 
 
+  <employeeRecords>
+    <userone id="1" xmlns:b="http://shari.com/mynamespace">
+      <b:fname>farhan</b:fname>
+      <b:lname>khan</b:lname>
+      <b:email>one@gmail.com</b:email>
+    </userone>
 
-<personData> 
-<user id = "1">
-<form>
-<firstname>shari</firstname>
-<lastname>khan</lastname>
-<email>shari@897</email>
+    <userone id="2" xmlns="https://shari.xom">
+      <fname>kami</fname>
+      <lname>raz</lname>
+      <email>two@gmail.com</email>
+    </userone>
+
+    <userone id="3">
+      <fname>jami</fname>
+      <lname>kha</lname>
+      <email>thre@gmail.com</email>
+    </userone>
+
+    <userone id="4">
+      <fname>fahsi</fname>
+      <lname>khan</lname>
+      <email>four@gmail.com</email>
+    </userone>
+  </employeeRecords>
 
 
-</user>
-</personData>
+  <!-- Second dataset: employeeRecords -->
+  <!--  hum es main root eleemtn main behi xmlns namespaces ko add kar saktian hian n -->
+
+    <nadraData xmlns:a="http://shari.com/mynamespace"  xmlns:c="https://shari.xom">
+    <user id="1" >
+      <a:firstname>Shahar</a:firstname>
+      <a:lastname>khan</a:lastname>
+      <a:email>shari@gmail.com</a:email>
+    </user>
+
+    <user id="2" >
+      <c:firstname>ali</c:firstname>
+      <c:lastname>raza</c:lastname>
+      <c:email>ali@gmail.com</c:email>
+    </user>
+
+    <user id="3">
+      <firstname>hadi</firstname>
+      <lastname>khan</lastname>
+      <email>hadi@gmail.com</email>
+    </user>
+
+    <user id="4">
+      <firstname>hadi</firstname>
+      <lastname>khan</lastname>
+      <email>hadi@gmail.com</email>
+    </user>
+  </nadraData>
+
+
+</allRecords>
