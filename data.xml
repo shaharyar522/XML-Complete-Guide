@@ -1,8 +1,8 @@
 
 
-<!-- in xml you have must be root element use  -->
-<!--  es main id hum kuhd say define karaty hain  -->
-<!-- it has nothing to do id and calass -->
+<!-- only introduction  to XML   -->
+<?xml version="1.0" encoding="UTF-8"?>
+
 
 <personData> 
 <user id = "1">
@@ -10,9 +10,22 @@
 <firstname>shari</firstname>
 <lastname>khan</lastname>
 <email>shari@897</email>
-
-
+</form>
+</user>
+<user id = "2">
+<form>
+<firstname>shari</firstname>
+<lastname>khan</lastname>
+<email>shari@897</email>
+</form>
+</user>
+<user id = "3">
+<form>
+<firstname>shari</firstname>
+<lastname>khan</lastname>
+<email>shari@897</email>
+</form>
 </user>
 </personData>
 
-
+<!-- i am add id on my own this a attributes  -->
